@@ -8,5 +8,6 @@ btn.addEventListener('click', function(){
     console.log(c1,c2,c3)
     
     box.style.backgroundColor = `rgb(${c1} ${c2} ${c3})`
+    box.innerHTML = `rgb(${c1} ${c2} ${c3})`
 })
 
